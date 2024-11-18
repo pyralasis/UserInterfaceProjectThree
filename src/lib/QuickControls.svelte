@@ -40,7 +40,7 @@
     <div id="NavigationUI">
         <img
             id="NavigationImage"
-            src="src\assets\road visualization.jpg"
+            src="road visualization.jpg"
             height="200px"
             width="300px"
             alt="navigation picture"

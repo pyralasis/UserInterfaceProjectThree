@@ -30,39 +30,35 @@
 
 <main>
   <div class="top">
-    
-  
-  <div id="TopBar">
-    <p>
-      {month}/{date}/{year}
-      {hours24}:{min.toString().padStart(2, "0")}
-      {meridian} 90%
-    </p>
-    <img src="src\assets\battery.png" height="25" width="25" alt="battery icon">
-  </div>
-
-  <div class="mainContainer">
-    <div class="maintenance">
-
-    </div>
-    <img alt="maintenance icons" src="src\assets\maintenance icons.png">
-    <div id="LeftControls">
-      <QuickControls></QuickControls>
+    <div id="TopBar">
+      <p>
+        {month}/{date}/{year}
+        {hours24}:{min.toString().padStart(2, "0")}
+        {meridian} 90%
+      </p>
+      <img src="battery.png" height="25" width="25" alt="battery icon" />
     </div>
 
-    <div id="RightControls">
-      <!-- Zach: I had this here to hopefully set up the display but I just can't figure it out lol-->
-      <iframe
-        title="navigation"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d164388.20990939497!2d-84.52020278550863!3d39.13106191862196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b38acb65ec25%3A0x4249b42781c0c5fc!2sUniversity%20of%20Cincinnati!5e1!3m2!1sen!2sus!4v1731696240570!5m2!1sen!2sus"
-        width="800"
-        height="700"
-        style="border:0;"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+    <div class="mainContainer">
+      <div class="maintenance"></div>
+      <img alt="maintenance icons" src="maintenance icons.png" />
+      <div id="LeftControls">
+        <QuickControls></QuickControls>
+      </div>
+
+      <div id="RightControls">
+        <!-- Zach: I had this here to hopefully set up the display but I just can't figure it out lol-->
+        <iframe
+          title="navigation"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d164388.20990939497!2d-84.52020278550863!3d39.13106191862196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841b38acb65ec25%3A0x4249b42781c0c5fc!2sUniversity%20of%20Cincinnati!5e1!3m2!1sen!2sus!4v1731696240570!5m2!1sen!2sus"
+          width="800"
+          height="700"
+          style="border:0;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
-  </div>
   </div>
 </main>
 

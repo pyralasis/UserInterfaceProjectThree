@@ -40,7 +40,9 @@
     <div id="NavigationUI">
         <img
             id="NavigationImage"
-            src="https://www.tesla.com/ownersmanual/images/GUID-2BE784C9-FDF3-486F-B287-83F7B6BD5FEB-online-en-US.png"
+            src="src\assets\road visualization.jpg"
+            height="200px"
+            width="300px"
             alt="navigation picture"
         />
     </div>
@@ -49,6 +51,8 @@
         <img
             id="SongCover"
             src="https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png"
+            height="100"
+            width="100"
             alt="album icon"
         />
         <div id="SongInformation">
@@ -109,16 +113,20 @@
         margin: 0;
         padding: 0;
     }
-    #SongCover {
-        width: 25%;
-    }
     #SpotifyControls {
         display: flex;
         flex-direction: row;
         justify-content: center;
         border: 1px solid black;
     }
+    #SongCover {
+        display: flex;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
     #NavigationImage {
-        width: 25%;
+        display: flex;
+        justify-content: left;
+        align-items: left;
     }
 </style>
